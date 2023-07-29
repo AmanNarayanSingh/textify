@@ -6,7 +6,7 @@ export default function About({mode}) {
     <div className={`content ${mode === 'dark' ? 'dark-mode' : ''}`}  style={{display:'flex',alignItems:'center'}}>
     <>
         <div className="container my-4" >
-            <h1>About Author</h1><br />
+            <h1>About the Author</h1><br />
             <p style={{fontSize:25}}>Aman Narayan Singh</p>
             <p style={{fontFamily:'cursive',fontSize:18}} id="quote">"Coding is a symphony of creativity and logic, where lines of code compose the poetry of innovation, and programmers wield the power to turn imagination into reality. In the digital realm, they navigate the labyrinth of possibilities, transforming chaos into elegant solutions, and leaving behind a legacy of ingenuity that shapes the future."</p>
             <p>I am a Full Stack Developer who likes the quest to work and learn in a real professional and vying ambience that enables me to cope with the emerging as well as the latest technology and scope for widening the spectrum of my knowledge, excellent capability to explore, learn and understand newer business domains, mathematics and technology along with web development, competitive programming with Python as my primary language. </p>
