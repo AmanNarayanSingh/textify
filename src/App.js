@@ -41,7 +41,7 @@ function App() {
     <>
       <div className={`app ${mode === 'dark' ? 'dark-mode' : ''}`}>
         {/* <Router> */}
-          <Navbar title="Textify" about="About Author" mode={mode} toggleMode={toggleMode}/>
+          <Navbar title="Textify" about="Author's Desk" mode={mode} toggleMode={toggleMode}/>
             <div className='container'>
               <Routes>
                 <Route exact path="/about" element={<About/>}/>
