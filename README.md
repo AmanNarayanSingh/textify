@@ -1,3 +1,7 @@
+# About the app
+
+Textify is an simple react app that can be used to manipulate your text to some commonn textforms like uppercase, lowercase, capitalize, title,very easily along with word count and character count.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

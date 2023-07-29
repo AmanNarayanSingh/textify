@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+/* Add your other styles here */
+
+/* Dark mode styles applied to the whole page */
+body.dark-mode {
+  background-color: #063a45;
+  color: white;
+}
+
+body.dark-mode img {
+  background-color: lightgrey;
+
+}
+
+.content.dark-mode {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.content.dark-mode h1 {
+  color: white;
+}
+
+
+ img {
+  width: 75%;
+  height: auto;
+  border-radius: 10px;
+  margin: 25px;
+  border: 2px solid black;
+  /* padding-top: 5%; */
+  /* Set a maximum width for the image on smaller screens */
+  max-width: 100%; /* This will prevent the image from exceeding its natural size */
+  /* min-width: 100%; */
+}
+
+#quote{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 3%;
+}
+
+
+
+
+/* Add more dark mode styles as needed */
+
